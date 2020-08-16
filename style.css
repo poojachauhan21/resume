@@ -1,0 +1,128 @@
+body{
+  margin-bottom: 8rem;
+  font-style: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  margin-top: 1.5rem;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+}
+.logo{
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+.name {
+  color: #1874CD;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: bold;
+}
+.designation {
+  color: #FFA500;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1874CD;
+}
+.container .row .col-md-4 .obj p{
+  text-align: left;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.container .row .col-md-8 .edu h5{
+  text-align: center;
+  padding-top: 2rem;
+}
+.container .row .col-md-8 .edu{
+  padding-bottom: 2.5rem;
+}
+.container .row .col-md-4 .skills ul, .container .row .col-md-4 .extra ul{
+  color: white;
+  margin-left: 2.5rem;
+}
+.container .row .col-md-4 .info ul{
+  list-style-type:none;
+}
+.container .row .col-md-4 .extra ul li, .container .row .col-md-8 .course ol{
+  margin-bottom: 0.7rem;
+}
+.container .row .col-md-4 .info ul li,  .container .row .col-md-8 .course ol li{
+  margin-bottom: 1rem;
+}
+hr{
+  border: 1px solid white;
+}
+.container .row .col-md-8 .exp h6 {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.container .row .col-md-8 .exp p{
+  margin-left: 2rem;
+}
+table{
+  border: 1px solid white;
+  margin: 2rem 1rem;
+}
+th{
+  color: #1874CD;
+  border: 2px solid white;
+  background-color: white;
+}
+td{
+  color: white;
+  border: 1px solid white;
+}
+a{
+  text-decoration: none;
+  color:white
+}
+a:hover{
+  text-decoration: none;
+  transition: all .3s ease;
+  color: #beef00;
+}
+h5{
+  color: #FFA500;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
+.row{
+  margin-top: 4rem;
+}
+.obj, .skills .info, .extra, .exp, .course{
+  color: white;
+  padding-bottom: 2.5rem;
+}
+@media (max-width: 1020px){
+  .header{
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .logo{
+    height:200px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ text-align:center;
+ margin: -6rem 0rem;
+  }
+  .name {
+    color: #13547a;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5.8rem;
+  }
+
+}
